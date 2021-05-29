@@ -1,7 +1,7 @@
 while True:
     try:
         age = int(input('what is your age: '))
-        10/age
+        10 / age
         raise ValueError('hey cut it out')
     except ValueError:
         print('please enter a number')
